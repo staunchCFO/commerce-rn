@@ -36,7 +36,7 @@ const Welcome = ({ navigation }) => {
                     Welcome to
                 </Text>
                 <Text style={{ marginTop: SIZES.base, ...FONTS.h1 }}>
-                    Margaret
+                    YBGadgets
                 </Text>
             </View>
 
