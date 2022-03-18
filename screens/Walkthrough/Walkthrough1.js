@@ -6,7 +6,7 @@ import {
 // Importing from RNGH instead of RN to avoid getting the vazualized list warning
 import { FlatList } from "react-native-gesture-handler"
 
-import { SIZES, constants, images } from "../../constants/" 
+import { SIZES, constants} from "../../constants" 
 
 const ITEM_WIDTH = 120;
 
@@ -21,7 +21,7 @@ const Walkthrough1 = () => {
     // Total enable the automatic scrolling
     const [ currentPosition, setCurrentPosition ] = React.useState(0)
 
-    // Second Row images: for smooth scrolling 
+    // Second Row ima ges: for smooth scrolling 
     const [ row2Images, set2RowImages ] = React.useState([
         ...constants.walkthrough_01_02_images,
         ...constants.walkthrough_01_02_images

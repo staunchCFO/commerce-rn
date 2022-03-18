@@ -56,7 +56,7 @@ const Walkthrough = () => {
         return (
             <View
                 style={{
-                    postion: 'absolute',
+                    position: 'absolute',
                     bottom: 0,
                     left: 0,
                     right: 0,
@@ -141,18 +141,18 @@ const Walkthrough = () => {
                                     flex: 1,
                                     justifyContent: 'center',
                                 }}
-                            > 
+                            >
                                 {index == 0 && <Walkthrough1 />}
                             </View>
 
                             {/* Titles and Descriptions */}
                             <View
                                 style={{
-                                    flex: 0.2,
                                     height: SIZES.height * 0.35,
-                                    alignItems: "center",
-                                    justifyContent: "flex-start",
+                                    alignItems: 'center',
+                                    justifyContent: 'flex-start',
                                     paddingHorizontal: SIZES.padding
+
                                 }}
                             >
                                 <Text
@@ -162,6 +162,7 @@ const Walkthrough = () => {
                                 >
                                     {item.title}
                                 </Text>
+
                                 <Text
                                     style={{
                                         marginTop: SIZES.radius,
@@ -172,7 +173,7 @@ const Walkthrough = () => {
                                 >
                                     {item.sub_title}
                                 </Text>
-                            </View>
+                            </View>    
                         </View>
                     )
                 }}
